@@ -1,0 +1,22 @@
+{
+  "name": "electron-score-bored",
+  "version": "1.0.0",
+  "description": "A minimal Electron application written with Typescript",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "lint": "eslint -c .eslintrc --ext .ts ./src",
+    "start": "npm run build && electron ./dist/main.js"
+  },
+  "keywords": [],
+  "author": "Anthony Buncio",
+  "license": "ISC",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.33.0",
+    "@typescript-eslint/parser": "^4.33.0",
+    "electron": "^24.3.0",
+    "eslint": "^7.32.0",
+    "typescript": "^4.8.3"
+  },
+  "dependencies": {}
+}
