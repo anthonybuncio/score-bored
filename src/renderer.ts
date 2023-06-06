@@ -1,6 +1,5 @@
 // Use preload.js to selectively enable features
 // needed in the renderer process.
-
 let content = '';
 let days = 0;
 const gameData = {
@@ -670,15 +669,16 @@ const getScores = async () => {
 	console.log(formattedDate);
 
 	try {
+		// const KEY = window.atob('OGQzYzE3ZGFmM21zaDhiYTMwZjVhMDk3ZGFhYnAxNjdhMjdqc24yY2E1MDYwZTc5ODc=');
 		// const response = await fetch("https://livescore6.p.rapidapi.com/matches/v2/list-by-date?Category=basketball&Date=20230402&Timezone=-7", {
 		// 	method: 'GET',
 		// 	headers: {
-		// 		'X-RapidAPI-Key': '8d3c17daf3msh8ba30f5a097daabp167a27jsn2ca5060e7987',
+		// 		'X-RapidAPI-Key': KEY,
 		// 		'X-RapidAPI-Host': 'livescore6.p.rapidapi.com'
 		// 	}
 		// });
 		// const result = await response.json();
-		console.log("Fake game data");
+		console.log("Dummy game data");
 		return gameData.Events.map(game => updateView(game));
 	} catch (error) {
 		console.error(error);
