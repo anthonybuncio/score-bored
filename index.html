@@ -6,29 +6,23 @@
     <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
     <link rel="stylesheet" href="./assets/css/photon.css">
     <link rel="stylesheet" href="./index.css" media="screen" charset="utf-8">
-    <meta
-      http-equiv="Content-Security-Policy"
-      content="default-src 'self'; script-src 'self'"
-    />
-    <meta
-      http-equiv="X-Content-Security-Policy"
-      content="default-src 'self'; script-src 'self'"
-    />
   </head>
   <body>
     <div class="window light">
       <header class="toolbar toolbar-header">
-        <!-- <span class="icon icon-left-open-big js-previous-scores" title="Previous"></span> -->
-        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-arrow-badge-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-          <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-          <path d="M11 17h6l-4 -5l4 -5h-6l-4 5z"></path>
-       </svg>
+        <span class="js-previous-scores" title="Previous">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-arrow-badge-left js-previous-scores" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+            <path d="M11 17h6l-4 -5l4 -5h-6l-4 5z"></path>
+         </svg>
+        </span>
         <h1 class="title"></h1>
-        <!-- <span class="icon icon-right-open-big js-next-scores" title="Next"></span> -->
-        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-arrow-badge-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-          <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-          <path d="M13 7h-6l4 5l-4 5h6l4 -5z"></path> 
-       </svg>
+        <span class="js-next-scores" title="Next">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-arrow-badge-right js-next-scores" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+            <path d="M13 7h-6l4 5l-4 5h6l4 -5z"></path> 
+         </svg>
+        </span>
       </header>
 
       <div class="window-content">
