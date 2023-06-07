@@ -1,4 +1,4 @@
-# electron-quick-start-typescript
+# Score Bored
 
 **Clone and run for a quick way to see Electron in action.**
 
