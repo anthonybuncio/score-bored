@@ -12,7 +12,7 @@
   "author": "Anthony Buncio",
   "license": "ISC",
   "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "^4.33.0",
+    "@typescript-eslint/eslint-plugin": "^6.4.0",
     "@typescript-eslint/parser": "^4.33.0",
     "electron": "^24.3.0",
     "eslint": "^7.32.0",
